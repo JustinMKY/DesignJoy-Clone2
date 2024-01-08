@@ -326,7 +326,7 @@
                                 <div>
                                     <h3>$595/m</h3>
                                     <p>Pause or cancel anytime</p>
-                                    <button id="btn">Get Started</button>
+                                    <button id="btn" onclick="sendStandardStripe()">Get Started</button>
                                     <br></br>
                                     <a href="https://www.youtube.com/watch?v=Ve_u9rAHmlg&ab_channel=SandeepMaheshwari"
                                         target="_blank">Book a Call</a>
@@ -353,7 +353,7 @@
                                 <div>
                                     <h3>$995/m</h3>
                                     <p>Pause or cancel anytime</p>
-                                    <button id="btn">Get Started</button>
+                                    <button id="btn" onclick="sendProfessionalStripe()">Get Started</button>
                                     <br><br>
                                     <a href="https://www.youtube.com/watch?v=Ve_u9rAHmlg&ab_channel=SandeepMaheshwari"
                                         target="_blank">Book a Call</a>
@@ -503,6 +503,16 @@
         var element = document.getElementById('plans');
         element.scrollIntoView({ behavior: 'smooth' });
     }
+    </script>
+    <script>
+        function sendStandardStripe() {
+            window.location.href = 'https://buy.stripe.com/bIY5lr6wD1xJcb6fZ0';
+        }
+    </script>
+    <script>
+        function sendProfessionalStripe() { 
+            window.location.href = 'https://buy.stripe.com/cN23djdZ5b8jfnicMN';
+        }
     </script>
 </body>
 
